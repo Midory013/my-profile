@@ -1,0 +1,13 @@
+#banner { 
+    background-image: url("image/background-banner.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    padding: 40px;
+    
+}
+
+#banner h1{
+    color: white;
+    font-family: 'Bree Serif', serif;
+}

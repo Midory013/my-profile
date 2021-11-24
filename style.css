@@ -1,0 +1,93 @@
+@import url(componentes/card.css);
+@import url(componentes/button.css);
+@import url(banner.css);
+@import url(componentes/avatar.css);
+
+
+body {
+    /*background-image: url(background-banner.jpg);
+    background-size: cover;*/
+    background-color: #f6f9fc;
+    color: rgb(30, 30, 30);
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+
+p {
+    text-align: justify;
+}
+
+h1, h2, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #168aad;
+    font-weight: 80px;
+    font-size: 28px;
+}
+
+h2 {
+    color: #34a0a4;
+    font-weight: 80px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 16px;
+    color: #168aad;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+
+.list-inline {
+    list-style: none;
+    padding-left: 0%;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline i {
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+
+
+@media (max-width: 992px){
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px){
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 576px){
+    .container {
+        width: 300px;
+    }
+}
+
+
